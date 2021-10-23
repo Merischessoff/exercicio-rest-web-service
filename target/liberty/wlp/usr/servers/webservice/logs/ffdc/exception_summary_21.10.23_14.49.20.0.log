@@ -1,0 +1,10 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      2 23/10/2021 14:49:20:188 BRT 23/10/2021 14:49:41:094 BRT com.ibm.wsspi.adaptable.module.UnableToAdaptException com.ibm.ws.webcontainer.osgi.WebContainer createModuleMetaData
+                                                                            - /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/ffdc/ffdc_21.10.23_14.49.20.0.log
+     1      2 23/10/2021 14:49:20:269 BRT 23/10/2021 14:49:41:094 BRT com.ibm.ws.container.service.metadata.MetaDataException com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase 535
+                                                                            - /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/ffdc/ffdc_21.10.23_14.49.20.1.log
+     2      7 23/10/2021 14:58:30:359 BRT 23/10/2021 15:39:46:012 BRT javax.ws.rs.InternalServerErrorException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/ffdc/ffdc_21.10.23_14.58.30.0.log
+------+------+---------------------------+---------------------------+---------------------------

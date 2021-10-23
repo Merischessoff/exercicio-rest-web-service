@@ -1,0 +1,640 @@
+********************************************************************************
+product = Open Liberty 21.0.0.10 (wlp-1.0.57.cl211020210920-1900)
+wlp.install.dir = /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/
+java.home = /usr/lib/jvm/java-11-openjdk-amd64
+java.version = 11.0.11
+java.runtime = OpenJDK Runtime Environment (11.0.11+9-Ubuntu-0ubuntu2.18.04)
+os = Linux (5.4.0-87-generic; amd64) (pt_BR)
+process = 4497@meridiane-Lenovo-ideapad-330S-14IKB
+********************************************************************************
+[23/10/2021 13:00:36:779 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: O servidor webservice foi ativado.
+[23/10/2021 13:00:40:001 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: O kernel foi iniciado após 3,436 segundos
+[23/10/2021 13:00:40:036 BRT] 00000023 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Atualização do recurso iniciada.
+[23/10/2021 13:00:42:346 BRT] 00000018 .apache.cxf.cxf.core.3.2:1.0.57.cl211020210920-1900(id=102)] I Aries Blueprint packages not available. So namespaces will not be registered
+[23/10/2021 13:00:42:347 BRT] 0000001a .apache.cxf.cxf.core.3.2:1.0.57.cl211020210920-1900(id=102)] I Aries Blueprint packages not available. So namespaces will not be registered
+[23/10/2021 13:00:42:400 BRT] 00000017 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: O serviço de segurança está iniciando...
+[23/10/2021 13:00:42:595 BRT] 00000018 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitorando dropins para aplicativos.
+[23/10/2021 13:00:42:938 BRT] 00000018 rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5780I: O MicroProfile JWT versão 1.2 mpConfigProxy foi processado com sucesso.
+[23/10/2021 13:00:42:940 BRT] 00000019 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: O mpConfigProxy do MicroProfile JWT versão 1.1 foi processado com sucesso.
+[23/10/2021 13:00:42:972 BRT] 0000001a com.ibm.ws.cache.ServerCache                                 I DYNA1001I: A instância de Cache Dinâmico do WebSphere denominada baseCache foi inicializada com êxito.
+[23/10/2021 13:00:42:980 BRT] 0000001a com.ibm.ws.cache.ServerCache                                 I DYNA1071I: O provedor de cache default está sendo usado.
+[23/10/2021 13:00:42:981 BRT] 0000001a com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Cache Dinâmico (cache de objeto) inicializado com êxito.
+[23/10/2021 13:00:43:186 BRT] 0000001f com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/resources/security/public.jks of type: JKS
+[23/10/2021 13:00:43:212 BRT] 00000025 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: A configuração de LTPA fica pronta após 0,027 segundos.
+[23/10/2021 13:00:43:230 BRT] 00000017 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I:  O plug-in de autenticação coletivo com o nome de classe NullCollectiveAuthenticationPlugin foi ativado. 
+[23/10/2021 13:00:43:232 BRT] 0000001f com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: A configuração do MicroProfile JWT [MicroProfileJwtService] foi processada com sucesso.
+[23/10/2021 13:00:43:234 BRT] 0000001f com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: A configuração do MicroProfile JWT [jwtUserConsumer] foi processada com sucesso.
+[23/10/2021 13:00:43:235 BRT] 0000001f com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: A configuração do MicroProfile JWT [defaultMpJwt] foi processada com sucesso.
+[23/10/2021 13:00:43:344 BRT] 00000017 com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: O serviço do consumidor JSON Web Token (JWT) está disponível.
+[23/10/2021 13:00:43:357 BRT] 00000017 com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: O trabalho de terminal JSON Web Token (JWT) está disponível.
+[23/10/2021 13:00:43:397 BRT] 00000017 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: A classe AuthConfigFactory com.ibm.ws.security.jaspi.ProviderRegistry padrão do Java Authentication SPI for Containers (JASPIC) está sendo usada porque a propriedade de segurança Java authconfigprovider.factory não está configurada. 
+[23/10/2021 13:00:43:666 BRT] 00000017 com.ibm.ws.session.WASSessionCore                            I SESN8501I: O gerenciador de sessões não localizou um local de armazenamento persistente; objetos HttpSession serão armazenados na memória do servidor de aplicativos local.
+[23/10/2021 13:00:43:724 BRT] 00000017 .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Métricas de monitoramento podem ser recuperadas por meio do mpMetrics.
+[23/10/2021 13:00:44:092 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo webservice.
+[23/10/2021 13:00:44:093 BRT] 00000024 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo webservice está usando a definição de aplicativo indefinido no local /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/apps/webservice.war.xml.
+[23/10/2021 13:00:44:406 BRT] 00000037 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: PublicMicroProfileMetrics.
+[23/10/2021 13:00:44:410 BRT] 00000037 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web PublicMicroProfileMetrics foi ligado ao default_host.
+[23/10/2021 13:00:44:405 BRT] 00000035 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: OpenAPIUI.
+[23/10/2021 13:00:44:411 BRT] 00000035 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web OpenAPIUI foi ligado ao default_host.
+[23/10/2021 13:00:44:405 BRT] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: health.
+[23/10/2021 13:00:44:415 BRT] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web health foi ligado ao default_host.
+[23/10/2021 13:00:44:407 BRT] 00000034 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: ibm/api.
+[23/10/2021 13:00:44:416 BRT] 00000034 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web ibm/api foi ligado ao default_host.
+[23/10/2021 13:00:44:418 BRT] 00000037 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/metrics/
+[23/10/2021 13:00:44:430 BRT] 00000034 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/ibm/api/
+[23/10/2021 13:00:44:446 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/health/
+[23/10/2021 13:00:44:446 BRT] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/openapi/ui/
+[23/10/2021 13:00:44:449 BRT] 0000002e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: com.ibm.ws.security.jwt.
+[23/10/2021 13:00:44:450 BRT] 0000002e com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web com.ibm.ws.security.jwt foi ligado ao default_host.
+[23/10/2021 13:00:44:452 BRT] 0000002e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/jwt/
+[23/10/2021 13:00:44:504 BRT] 0000002f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: MicroProfileOpenAPI.
+[23/10/2021 13:00:44:504 BRT] 0000002f com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web MicroProfileOpenAPI foi ligado ao default_host.
+[23/10/2021 13:00:44:505 BRT] 0000002f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/openapi/
+[23/10/2021 13:00:44:568 BRT] 00000034 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/openapi
+[23/10/2021 13:00:44:568 BRT] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/ibm/api
+[23/10/2021 13:00:44:568 BRT] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/metrics
+[23/10/2021 13:00:44:568 BRT] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/jwt
+[23/10/2021 13:00:44:569 BRT] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/health
+[23/10/2021 13:00:44:568 BRT] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/openapi/ui
+[23/10/2021 13:00:44:635 BRT] 00000034 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 13:00:44:647 BRT] 0000002a com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 13:00:44:648 BRT] 0000002b com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 13:00:44:648 BRT] 0000002c com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 13:00:44:649 BRT] 00000027 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 13:00:44:649 BRT] 00000028 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 13:00:44:676 BRT] 0000002a com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Cache Dinâmico (cache de objeto) inicializado com êxito.
+[23/10/2021 13:00:44:838 BRT] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckReadinessServlet]: Inicialização bem sucedida.
+[23/10/2021 13:00:44:840 BRT] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.internal.public] [/metrics] [PublicMetricsRESTProxyServlet]: Inicialização bem sucedida.
+[23/10/2021 13:00:44:841 BRT] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckServlet]: Inicialização bem sucedida.
+[23/10/2021 13:00:44:843 BRT] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckLivenessServlet]: Inicialização bem sucedida.
+[23/10/2021 13:00:44:845 BRT] 00000034 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Inicialização bem sucedida.
+[23/10/2021 13:00:45:047 BRT] 0000002d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 13:00:46:315 BRT] 00000024 io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: A validação do documento OpenAPI produziu o erro a seguir: 
+                                                                                                               
+ - Mensagem: O Objeto de item de caminho deve conter um caminho válido. A operação "POST" do caminho "/data/milhas/{valor}" não define um parâmetro de caminho que está declarado: "valor", local: #/paths/~1data~1milhas~1{valor}
+
+[23/10/2021 13:00:46:327 BRT] 00000024 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: O aplicativo webservice foi processado e um documento OpenAPI foi produzido.
+[23/10/2021 13:00:46:486 BRT] 00000024 org.jboss.weld.Version                                       I WELD-000900: 3.1.7 (SP1)
+[23/10/2021 13:00:49:110 BRT] 00000024 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: webservice.
+[23/10/2021 13:00:49:111 BRT] 00000024 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web webservice foi ligado ao default_host.
+[23/10/2021 13:00:49:111 BRT] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/10/2021 13:00:49:114 BRT] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/10/2021 13:00:49:115 BRT] 0000002b com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 13:00:49:153 BRT] 0000002b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: O aplicativo webservice foi iniciado em 5,061 segundos.
+[23/10/2021 13:00:49:178 BRT] 00000023 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: O Canal TCP defaultHttpEndpoint foi iniciado e agora está atendendo solicitações no host localhost  (IPv4: 127.0.0.1) porta 9080.
+[23/10/2021 13:00:49:181 BRT] 00000023 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: O Canal TCP defaultHttpEndpoint-ssl foi iniciado e agora está atendendo solicitações no host localhost  (IPv4: 127.0.0.1) porta 9443.
+[23/10/2021 13:00:49:202 BRT] 00000023 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: O servidor instalou os recursos a seguir: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-4.0, monitor-1.0, mpConfig-2.0, mpFaultTolerance-3.0, mpHealth-3.0, mpJwt-1.2, mpMetrics-3.0, mpOpenAPI-2.0, mpOpenTracing-2.0, mpRestClient-2.0, opentracing-2.0, servlet-4.0, ssl-1.0].
+[23/10/2021 13:00:49:203 BRT] 00000023 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Atualização do recurso concluída em 9,198 segundos.
+[23/10/2021 13:00:49:204 BRT] 00000023 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: O servidor webservice está pronto para gerenciar um planeta mais inteligente. O servidor webservice foi iniciado em 12,639 segundos.
+[23/10/2021 13:00:49:218 BRT] 00000037 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 13:00:51:252 BRT] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/10/2021 13:00:51:331 BRT] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo webservice foi interrompido com sucesso.
+[23/10/2021 13:00:51:337 BRT] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo webservice.
+[23/10/2021 13:00:51:338 BRT] 0000002c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo webservice está usando a definição de aplicativo indefinido no local /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/apps/webservice.war.xml.
+[23/10/2021 13:00:51:588 BRT] 0000002d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 13:00:51:815 BRT] 0000002c io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: A validação do documento OpenAPI produziu o erro a seguir: 
+                                                                                                               
+ - Mensagem: O Objeto de item de caminho deve conter um caminho válido. A operação "POST" do caminho "/data/milhas/{valor}" não define um parâmetro de caminho que está declarado: "valor", local: #/paths/~1data~1milhas~1{valor}
+
+[23/10/2021 13:00:51:816 BRT] 0000002c io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: O aplicativo webservice foi processado e um documento OpenAPI foi produzido.
+[23/10/2021 13:00:52:338 BRT] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: webservice.
+[23/10/2021 13:00:52:339 BRT] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web webservice foi ligado ao default_host.
+[23/10/2021 13:00:52:339 BRT] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/10/2021 13:00:52:341 BRT] 00000023 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/10/2021 13:00:52:341 BRT] 00000023 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 13:00:52:350 BRT] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo webservice foi atualizado em 1,013 segundos.
+[23/10/2021 13:00:52:517 BRT] 0000002c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 13:01:43:820 BRT] 00000023 .apache.cxf.cxf.core.3.2:1.0.57.cl211020210920-1900(id=102)] I Setting the server's publish address to be /data/
+[23/10/2021 13:01:43:890 BRT] 00000023 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [webservice] [/] [com.rest.webservice.WebserviceRestApplication]: Inicialização bem sucedida.
+[23/10/2021 13:01:44:147 BRT] 00000023 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=webservice, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=meridiane-Lenovo-ideapad-330S-14IKB, jaeger.version=Java-1.5.0, ip=127.0.1.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[23/10/2021 13:01:44:148 BRT] 00000023 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: Uma instância de JaegerTracer foi criada para o aplicativo webservice. As informações de rastreio são enviadas para localhost:6831.
+[23/10/2021 13:08:06:984 BRT] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/10/2021 13:08:06:990 BRT] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [webservice] [/] [com.rest.webservice.WebserviceRestApplication]: Destruição bem sucedida.
+[23/10/2021 13:08:07:018 BRT] 0000002b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo webservice foi interrompido com sucesso.
+[23/10/2021 13:08:07:022 BRT] 0000002b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo webservice.
+[23/10/2021 13:08:07:023 BRT] 0000002b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo webservice está usando a definição de aplicativo indefinido no local /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/apps/webservice.war.xml.
+[23/10/2021 13:08:07:137 BRT] 0000002e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 13:08:07:430 BRT] 0000002b io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: A validação do documento OpenAPI produziu o erro a seguir: 
+                                                                                                               
+ - Mensagem: O Objeto de item de caminho deve conter um caminho válido. A operação "POST" do caminho "/data/milhas/{valor}" não define um parâmetro de caminho que está declarado: "valor", local: #/paths/~1data~1milhas~1{valor}
+
+[23/10/2021 13:08:07:430 BRT] 0000002b io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: O aplicativo webservice foi processado e um documento OpenAPI foi produzido.
+[23/10/2021 13:08:07:759 BRT] 0000002b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: webservice.
+[23/10/2021 13:08:07:759 BRT] 0000002b com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web webservice foi ligado ao default_host.
+[23/10/2021 13:08:07:759 BRT] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/10/2021 13:08:07:760 BRT] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/10/2021 13:08:07:760 BRT] 0000002a com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 13:08:07:767 BRT] 0000002a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo webservice foi atualizado em 0,745 segundos.
+[23/10/2021 13:08:07:867 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:38:20:181 BRT] 0000006d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/10/2021 14:38:20:197 BRT] 0000006d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo webservice foi interrompido com sucesso.
+[23/10/2021 14:38:20:201 BRT] 0000006d com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo webservice.
+[23/10/2021 14:38:20:202 BRT] 0000006d bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo webservice está usando a definição de aplicativo indefinido no local /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/apps/webservice.war.xml.
+[23/10/2021 14:38:20:346 BRT] 00000078 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:38:20:548 BRT] 0000006d io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: A validação do documento OpenAPI produziu o erro a seguir: 
+                                                                                                               
+ - Mensagem: O Objeto de item de caminho deve conter um caminho válido. A operação "POST" do caminho "/data/milhas/{valor}" não define um parâmetro de caminho que está declarado: "valor", local: #/paths/~1data~1milhas~1{valor}
+
+[23/10/2021 14:38:20:548 BRT] 0000006d io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: O aplicativo webservice foi processado e um documento OpenAPI foi produzido.
+[23/10/2021 14:38:20:820 BRT] 0000006d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: webservice.
+[23/10/2021 14:38:20:820 BRT] 0000006d com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web webservice foi ligado ao default_host.
+[23/10/2021 14:38:20:821 BRT] 0000006d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/10/2021 14:38:20:821 BRT] 00000078 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/10/2021 14:38:20:822 BRT] 00000078 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 14:38:20:826 BRT] 00000078 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo webservice foi atualizado em 0,625 segundos.
+[23/10/2021 14:38:20:908 BRT] 0000007b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:39:25:336 BRT] 00000079 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/10/2021 14:39:25:353 BRT] 00000079 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo webservice foi interrompido com sucesso.
+[23/10/2021 14:39:25:357 BRT] 00000079 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo webservice.
+[23/10/2021 14:39:25:357 BRT] 00000079 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo webservice está usando a definição de aplicativo indefinido no local /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/apps/webservice.war.xml.
+[23/10/2021 14:39:25:495 BRT] 00000063 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:39:25:686 BRT] 00000079 io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: A validação do documento OpenAPI produziu o erro a seguir: 
+                                                                                                               
+ - Mensagem: O Objeto de item de caminho deve conter um caminho válido. A operação "POST" do caminho "/data/milhas/{valor}" não define um parâmetro de caminho que está declarado: "valor", local: #/paths/~1data~1milhas~1{valor}
+
+[23/10/2021 14:39:25:686 BRT] 00000079 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: O aplicativo webservice foi processado e um documento OpenAPI foi produzido.
+[23/10/2021 14:39:25:935 BRT] 00000079 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: webservice.
+[23/10/2021 14:39:25:936 BRT] 00000079 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web webservice foi ligado ao default_host.
+[23/10/2021 14:39:25:936 BRT] 00000079 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/10/2021 14:39:25:937 BRT] 00000078 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/10/2021 14:39:25:937 BRT] 00000078 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 14:39:25:942 BRT] 00000078 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo webservice foi atualizado em 0,585 segundos.
+[23/10/2021 14:39:26:003 BRT] 0000002e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:39:30:830 BRT] 0000005f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/10/2021 14:39:30:841 BRT] 0000005f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo webservice foi interrompido com sucesso.
+[23/10/2021 14:39:30:845 BRT] 0000005f com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo webservice.
+[23/10/2021 14:39:30:846 BRT] 0000005f bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo webservice está usando a definição de aplicativo indefinido no local /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/apps/webservice.war.xml.
+[23/10/2021 14:39:30:919 BRT] 0000007f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:39:31:178 BRT] 0000005f io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: A validação do documento OpenAPI produziu o erro a seguir: 
+                                                                                                               
+ - Mensagem: O Objeto de item de caminho deve conter um caminho válido. A operação "POST" do caminho "/data/milhas/{valor}" não define um parâmetro de caminho que está declarado: "valor", local: #/paths/~1data~1milhas~1{valor}
+
+[23/10/2021 14:39:31:178 BRT] 0000005f io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: O aplicativo webservice foi processado e um documento OpenAPI foi produzido.
+[23/10/2021 14:39:31:500 BRT] 0000005f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: webservice.
+[23/10/2021 14:39:31:500 BRT] 0000005f com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web webservice foi ligado ao default_host.
+[23/10/2021 14:39:31:500 BRT] 0000005f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/10/2021 14:39:31:501 BRT] 0000006d com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/10/2021 14:39:31:502 BRT] 0000006d com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 14:39:31:509 BRT] 0000006d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo webservice foi atualizado em 0,664 segundos.
+[23/10/2021 14:39:31:572 BRT] 0000002e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:39:42:347 BRT] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/10/2021 14:39:42:358 BRT] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo webservice foi interrompido com sucesso.
+[23/10/2021 14:39:42:363 BRT] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo webservice.
+[23/10/2021 14:39:42:363 BRT] 00000035 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo webservice está usando a definição de aplicativo indefinido no local /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/apps/webservice.war.xml.
+[23/10/2021 14:39:42:509 BRT] 0000006f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:39:42:705 BRT] 00000035 io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: A validação do documento OpenAPI produziu o erro a seguir: 
+                                                                                                               
+ - Mensagem: O Objeto de item de caminho deve conter um caminho válido. A operação "POST" do caminho "/data/milhas/{valor}" não define um parâmetro de caminho que está declarado: "valor", local: #/paths/~1data~1milhas~1{valor}
+
+[23/10/2021 14:39:42:705 BRT] 00000035 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: O aplicativo webservice foi processado e um documento OpenAPI foi produzido.
+[23/10/2021 14:39:42:930 BRT] 00000035 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: webservice.
+[23/10/2021 14:39:42:930 BRT] 00000035 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web webservice foi ligado ao default_host.
+[23/10/2021 14:39:42:930 BRT] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/10/2021 14:39:42:931 BRT] 0000007f com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/10/2021 14:39:42:931 BRT] 0000007f com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 14:39:42:936 BRT] 0000007f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo webservice foi atualizado em 0,573 segundos.
+[23/10/2021 14:39:42:995 BRT] 0000006f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:40:45:723 BRT] 00000074 .apache.cxf.cxf.core.3.2:1.0.57.cl211020210920-1900(id=102)] I Setting the server's publish address to be /data/
+[23/10/2021 14:40:45:731 BRT] 00000074 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [webservice] [/] [com.rest.webservice.WebserviceRestApplication]: Inicialização bem sucedida.
+[23/10/2021 14:40:45:864 BRT] 00000074 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=webservice, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=meridiane-Lenovo-ideapad-330S-14IKB, jaeger.version=Java-1.5.0, ip=127.0.1.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[23/10/2021 14:40:45:865 BRT] 00000074 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: Uma instância de JaegerTracer foi criada para o aplicativo webservice. As informações de rastreio são enviadas para localhost:6831.
+[23/10/2021 14:41:33:682 BRT] 0000002e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/10/2021 14:41:33:687 BRT] 0000002e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [webservice] [/] [com.rest.webservice.WebserviceRestApplication]: Destruição bem sucedida.
+[23/10/2021 14:41:33:703 BRT] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo webservice foi interrompido com sucesso.
+[23/10/2021 14:41:33:708 BRT] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo webservice.
+[23/10/2021 14:41:33:709 BRT] 0000002e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo webservice está usando a definição de aplicativo indefinido no local /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/apps/webservice.war.xml.
+[23/10/2021 14:41:33:816 BRT] 0000006f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:41:34:009 BRT] 0000002e io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: A validação do documento OpenAPI produziu o erro a seguir: 
+                                                                                                               
+ - Mensagem: O Objeto de item de caminho deve conter um caminho válido. A operação "POST" do caminho "/data/milhas/{valor}" não define um parâmetro de caminho que está declarado: "valor", local: #/paths/~1data~1milhas~1{valor}
+
+[23/10/2021 14:41:34:009 BRT] 0000002e io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: O aplicativo webservice foi processado e um documento OpenAPI foi produzido.
+[23/10/2021 14:41:34:254 BRT] 0000002e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: webservice.
+[23/10/2021 14:41:34:254 BRT] 0000002e com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web webservice foi ligado ao default_host.
+[23/10/2021 14:41:34:254 BRT] 0000002e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/10/2021 14:41:34:255 BRT] 0000002d com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/10/2021 14:41:34:255 BRT] 0000002d com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 14:41:34:262 BRT] 0000002d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo webservice foi atualizado em 0,554 segundos.
+[23/10/2021 14:41:34:480 BRT] 0000002e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:42:15:858 BRT] 00000035 .apache.cxf.cxf.core.3.2:1.0.57.cl211020210920-1900(id=102)] I Setting the server's publish address to be /data/
+[23/10/2021 14:42:15:864 BRT] 00000035 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [webservice] [/] [com.rest.webservice.WebserviceRestApplication]: Inicialização bem sucedida.
+[23/10/2021 14:42:15:976 BRT] 00000035 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=webservice, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=meridiane-Lenovo-ideapad-330S-14IKB, jaeger.version=Java-1.5.0, ip=127.0.1.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[23/10/2021 14:42:15:977 BRT] 00000035 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: Uma instância de JaegerTracer foi criada para o aplicativo webservice. As informações de rastreio são enviadas para localhost:6831.
+[23/10/2021 14:42:15:986 BRT] 00000035 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E No message body writer has been found for class com.rest.webservice.Quilometro, ContentType: application/x-www-form-urlencoded
+[23/10/2021 14:44:36:270 BRT] 000000c2 nliberty.opentracing.internal.OpentracingJaxRsEMCallbackImpl W CWMOT0009W: O mapeador de exceção OpenTracing detectou e está manipulando uma exceção não manipulada do aplicativo JAX-RS. 
+                                                                                                               javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:128)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:183)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:94)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[23/10/2021 14:44:36:293 BRT] 000000c2 SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[23/10/2021 14:44:36:294 BRT] 000000c2 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:118)
+[23/10/2021 14:44:36:294 BRT] 000000c2 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:79)
+[23/10/2021 14:44:36:294 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:51)
+[23/10/2021 14:44:36:294 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[23/10/2021 14:44:36:294 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[23/10/2021 14:44:36:295 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[23/10/2021 14:44:36:295 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[23/10/2021 14:44:36:295 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[23/10/2021 14:44:36:295 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[23/10/2021 14:44:36:295 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[23/10/2021 14:44:36:295 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[23/10/2021 14:44:36:295 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[23/10/2021 14:44:36:295 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[23/10/2021 14:44:36:295 BRT] 000000c2 SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[23/10/2021 14:44:36:295 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[23/10/2021 14:44:36:296 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[23/10/2021 14:44:36:296 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[23/10/2021 14:44:36:296 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[23/10/2021 14:44:36:296 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:183)
+[23/10/2021 14:44:36:296 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:94)
+[23/10/2021 14:44:36:296 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[23/10/2021 14:44:36:296 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[23/10/2021 14:44:36:296 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[23/10/2021 14:44:36:296 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[23/10/2021 14:44:36:296 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[23/10/2021 14:44:36:297 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[23/10/2021 14:44:36:298 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[23/10/2021 14:44:36:298 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[23/10/2021 14:44:36:298 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[23/10/2021 14:44:36:298 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[23/10/2021 14:44:36:298 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[23/10/2021 14:44:36:298 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[23/10/2021 14:44:36:298 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[23/10/2021 14:44:36:298 BRT] 000000c2 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[23/10/2021 14:44:36:298 BRT] 000000c2 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[23/10/2021 14:44:36:298 BRT] 000000c2 SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:829)
+[23/10/2021 14:44:39:872 BRT] 000000b2 nliberty.opentracing.internal.OpentracingJaxRsEMCallbackImpl W CWMOT0009W: O mapeador de exceção OpenTracing detectou e está manipulando uma exceção não manipulada do aplicativo JAX-RS. 
+                                                                                                               javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:128)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:183)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:94)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[23/10/2021 14:44:39:876 BRT] 000000b2 SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[23/10/2021 14:44:39:876 BRT] 000000b2 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:118)
+[23/10/2021 14:44:39:877 BRT] 000000b2 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:79)
+[23/10/2021 14:44:39:877 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:51)
+[23/10/2021 14:44:39:877 BRT] 000000b2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[23/10/2021 14:44:39:877 BRT] 000000b2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[23/10/2021 14:44:39:877 BRT] 000000b2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[23/10/2021 14:44:39:878 BRT] 000000b2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[23/10/2021 14:44:39:878 BRT] 000000b2 SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[23/10/2021 14:44:39:878 BRT] 000000b2 SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[23/10/2021 14:44:39:878 BRT] 000000b2 SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[23/10/2021 14:44:39:878 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[23/10/2021 14:44:39:878 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[23/10/2021 14:44:39:878 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[23/10/2021 14:44:39:879 BRT] 000000b2 SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[23/10/2021 14:44:39:879 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[23/10/2021 14:44:39:879 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[23/10/2021 14:44:39:879 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[23/10/2021 14:44:39:879 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[23/10/2021 14:44:39:879 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:183)
+[23/10/2021 14:44:39:880 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:94)
+[23/10/2021 14:44:39:880 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[23/10/2021 14:44:39:880 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[23/10/2021 14:44:39:880 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[23/10/2021 14:44:39:880 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[23/10/2021 14:44:39:880 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[23/10/2021 14:44:39:880 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[23/10/2021 14:44:39:880 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+[23/10/2021 14:44:39:881 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[23/10/2021 14:44:39:881 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+[23/10/2021 14:44:39:881 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+[23/10/2021 14:44:39:881 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+[23/10/2021 14:44:39:881 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+[23/10/2021 14:44:39:881 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[23/10/2021 14:44:39:881 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[23/10/2021 14:44:39:881 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[23/10/2021 14:44:39:882 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[23/10/2021 14:44:39:882 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[23/10/2021 14:44:39:882 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[23/10/2021 14:44:39:882 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[23/10/2021 14:44:39:882 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[23/10/2021 14:44:39:882 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[23/10/2021 14:44:39:882 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[23/10/2021 14:44:39:883 BRT] 000000b2 SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[23/10/2021 14:44:39:883 BRT] 000000b2 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[23/10/2021 14:44:39:883 BRT] 000000b2 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[23/10/2021 14:44:39:883 BRT] 000000b2 SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:829)
+[23/10/2021 14:44:56:843 BRT] 000000c0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/10/2021 14:44:56:848 BRT] 000000c0 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [webservice] [/] [com.rest.webservice.WebserviceRestApplication]: Destruição bem sucedida.
+[23/10/2021 14:44:56:860 BRT] 000000c0 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo webservice foi interrompido com sucesso.
+[23/10/2021 14:44:56:866 BRT] 000000c0 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo webservice.
+[23/10/2021 14:44:56:866 BRT] 000000c0 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo webservice está usando a definição de aplicativo indefinido no local /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/apps/webservice.war.xml.
+[23/10/2021 14:44:57:024 BRT] 00000058 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:44:57:219 BRT] 000000c0 io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: A validação do documento OpenAPI produziu o erro a seguir: 
+                                                                                                               
+ - Mensagem: O Objeto de item de caminho deve conter um caminho válido. A operação "POST" do caminho "/data/milhas/{valor}" não define um parâmetro de caminho que está declarado: "valor", local: #/paths/~1data~1milhas~1{valor}
+
+[23/10/2021 14:44:57:219 BRT] 000000c0 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: O aplicativo webservice foi processado e um documento OpenAPI foi produzido.
+[23/10/2021 14:44:57:478 BRT] 000000c0 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: webservice.
+[23/10/2021 14:44:57:478 BRT] 000000c0 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web webservice foi ligado ao default_host.
+[23/10/2021 14:44:57:478 BRT] 000000c0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://localhost:9080/
+[23/10/2021 14:44:57:479 BRT] 000000b2 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/
+[23/10/2021 14:44:57:480 BRT] 000000b2 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[23/10/2021 14:44:57:484 BRT] 000000b2 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo webservice foi atualizado em 0,618 segundos.
+[23/10/2021 14:44:57:596 BRT] 000000c0 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/meridiane/Documentos/Dados/webservice/target/liberty/wlp/usr/servers/webservice/logs/state/plugin-cfg.xml.
+[23/10/2021 14:45:22:863 BRT] 000000c0 .apache.cxf.cxf.core.3.2:1.0.57.cl211020210920-1900(id=102)] I Setting the server's publish address to be /data/
+[23/10/2021 14:45:22:869 BRT] 000000c0 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [webservice] [/] [com.rest.webservice.WebserviceRestApplication]: Inicialização bem sucedida.
+[23/10/2021 14:45:22:870 BRT] 000000c0 nliberty.opentracing.internal.OpentracingJaxRsEMCallbackImpl W CWMOT0009W: O mapeador de exceção OpenTracing detectou e está manipulando uma exceção não manipulada do aplicativo JAX-RS. 
+                                                                                                               javax.ws.rs.ClientErrorException: HTTP 405 Method Not Allowed
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:563)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:248)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:183)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:94)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[23/10/2021 14:45:22:872 BRT] 000000c0 SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[23/10/2021 14:45:22:872 BRT] 000000c0 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:118)
+[23/10/2021 14:45:22:872 BRT] 000000c0 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:79)
+[23/10/2021 14:45:22:873 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:51)
+[23/10/2021 14:45:22:873 BRT] 000000c0 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[23/10/2021 14:45:22:873 BRT] 000000c0 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[23/10/2021 14:45:22:873 BRT] 000000c0 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[23/10/2021 14:45:22:873 BRT] 000000c0 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[23/10/2021 14:45:22:873 BRT] 000000c0 SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[23/10/2021 14:45:22:873 BRT] 000000c0 SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[23/10/2021 14:45:22:873 BRT] 000000c0 SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[23/10/2021 14:45:22:873 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:183)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:94)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[23/10/2021 14:45:22:874 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[23/10/2021 14:45:22:875 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[23/10/2021 14:45:22:875 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[23/10/2021 14:45:22:875 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[23/10/2021 14:45:22:875 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[23/10/2021 14:45:22:875 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+[23/10/2021 14:45:22:875 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[23/10/2021 14:45:22:875 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+[23/10/2021 14:45:22:875 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+[23/10/2021 14:45:22:876 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+[23/10/2021 14:45:22:876 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+[23/10/2021 14:45:22:876 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[23/10/2021 14:45:22:876 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[23/10/2021 14:45:22:876 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[23/10/2021 14:45:22:876 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[23/10/2021 14:45:22:876 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[23/10/2021 14:45:22:876 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[23/10/2021 14:45:22:876 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[23/10/2021 14:45:22:876 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[23/10/2021 14:45:22:877 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[23/10/2021 14:45:22:877 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[23/10/2021 14:45:22:877 BRT] 000000c0 SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[23/10/2021 14:45:22:877 BRT] 000000c0 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[23/10/2021 14:45:22:877 BRT] 000000c0 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[23/10/2021 14:45:22:877 BRT] 000000c0 SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:829)
+[23/10/2021 14:45:32:156 BRT] 000000c2 nliberty.opentracing.internal.OpentracingJaxRsEMCallbackImpl W CWMOT0009W: O mapeador de exceção OpenTracing detectou e está manipulando uma exceção não manipulada do aplicativo JAX-RS. 
+                                                                                                               javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:128)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:244)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:183)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:94)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpICLReadCallback.complete(HttpICLReadCallback.java:70)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[23/10/2021 14:45:32:158 BRT] 000000c2 SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[23/10/2021 14:45:32:158 BRT] 000000c2 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:118)
+[23/10/2021 14:45:32:158 BRT] 000000c2 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:79)
+[23/10/2021 14:45:32:158 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:51)
+[23/10/2021 14:45:32:158 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[23/10/2021 14:45:32:158 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[23/10/2021 14:45:32:159 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[23/10/2021 14:45:32:159 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[23/10/2021 14:45:32:159 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[23/10/2021 14:45:32:159 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[23/10/2021 14:45:32:159 BRT] 000000c2 SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[23/10/2021 14:45:32:159 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[23/10/2021 14:45:32:159 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[23/10/2021 14:45:32:159 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[23/10/2021 14:45:32:159 BRT] 000000c2 SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[23/10/2021 14:45:32:159 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[23/10/2021 14:45:32:160 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[23/10/2021 14:45:32:160 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[23/10/2021 14:45:32:160 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[23/10/2021 14:45:32:160 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:183)
+[23/10/2021 14:45:32:160 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:94)
+[23/10/2021 14:45:32:160 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[23/10/2021 14:45:32:160 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[23/10/2021 14:45:32:160 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[23/10/2021 14:45:32:161 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[23/10/2021 14:45:32:161 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[23/10/2021 14:45:32:161 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[23/10/2021 14:45:32:161 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+[23/10/2021 14:45:32:161 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[23/10/2021 14:45:32:161 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+[23/10/2021 14:45:32:161 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+[23/10/2021 14:45:32:161 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+[23/10/2021 14:45:32:161 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpICLReadCallback.complete(HttpICLReadCallback.java:70)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[23/10/2021 14:45:32:162 BRT] 000000c2 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[23/10/2021 14:45:32:163 BRT] 000000c2 SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:829)
+[23/10/2021 14:47:13:822 BRT] 00000014 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Encerramento do servidor solicitado em sábado, 23 de outubro de 2021 às 14:47. O servidor webservice está sendo encerrado.
+[23/10/2021 14:47:13:827 BRT] 000000cb com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Aguardando até 30 segundos para o servidor ser colocado em modo quiesce.
+[23/10/2021 14:47:13:833 BRT] 000000c0 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: O Canal TCP defaultHttpEndpoint-ssl interrompeu o atendimento das solicitações no host localhost  (IPv4: 127.0.0.1) porta 9443.
+[23/10/2021 14:47:13:835 BRT] 000000c0 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: O Canal TCP defaultHttpEndpoint interrompeu o atendimento das solicitações no host localhost  (IPv4: 127.0.0.1) porta 9080.
+[23/10/2021 14:47:13:835 BRT] 000000c0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/jwt/
+[23/10/2021 14:47:13:836 BRT] 000000c0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/openapi/ui/
+[23/10/2021 14:47:13:836 BRT] 000000c0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/metrics/
+[23/10/2021 14:47:13:836 BRT] 000000c0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/health/
+[23/10/2021 14:47:13:836 BRT] 000000c0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/
+[23/10/2021 14:47:13:836 BRT] 000000c0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/ibm/api/
+[23/10/2021 14:47:13:836 BRT] 000000c0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://localhost:9080/openapi/
+[23/10/2021 14:47:14:839 BRT] 000000cb com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Colocação em modo quiesce do servidor concluída.
+[23/10/2021 14:47:14:884 BRT] 000000b2 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [webservice] [/] [com.rest.webservice.WebserviceRestApplication]: Destruição bem sucedida.
+[23/10/2021 14:47:14:890 BRT] 000000b2 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo webservice foi interrompido com sucesso.
+[23/10/2021 14:47:15:001 BRT] 000000cb com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Destruição bem sucedida.
+[23/10/2021 14:47:15:007 BRT] 000000cb com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.metrics.internal.public] [/metrics] [PublicMetricsRESTProxyServlet]: Destruição bem sucedida.
+[23/10/2021 14:47:15:014 BRT] 000000cb com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckReadinessServlet]: Destruição bem sucedida.
+[23/10/2021 14:47:15:015 BRT] 000000cb com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckLivenessServlet]: Destruição bem sucedida.
+[23/10/2021 14:47:15:015 BRT] 000000cb com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckServlet]: Destruição bem sucedida.
+[23/10/2021 14:47:15:119 BRT] 000000cb rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5782I: O MicroProfile JWT versão 1.2 mpConfigProxy foi desativado com sucesso.
+[23/10/2021 14:47:15:121 BRT] 000000cb .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5777I: O mpConfigProxy do MicroProfile JWT versão 1.1 foi desativado com sucesso.
+[23/10/2021 14:47:15:123 BRT] 000000cb com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: A configuração do MicroProfile JWT [jwtUserConsumer] foi desativada com sucesso.
+[23/10/2021 14:47:15:124 BRT] 000000cb com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: A configuração do MicroProfile JWT [defaultMpJwt] foi desativada com sucesso.
+[23/10/2021 14:47:15:125 BRT] 000000cb com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5502I: A configuração do MicroProfile JWT [MicroProfileJwtService] foi desativada com sucesso.
+[23/10/2021 14:47:15:151 BRT] 000000cb .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2004I: Todas as métricas de monitoramento tiveram seu registro cancelado do mpMetrics.
+[23/10/2021 14:47:15:227 BRT] 000000cb com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: O serviço de segurança parou.
+[23/10/2021 14:47:15:254 BRT] 000000cb ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I:  O plug-in de autenticação coletivo com o nome de classe NullCollectiveAuthenticationPlugin foi desativado. 
+[23/10/2021 14:47:15:840 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: O servidor webservice foi interrompido depois de 1 horas, 46 minutos, 39,274 segundos.
