@@ -28,4 +28,15 @@ public class QuilometroConverte {
         q.setValorConvertido(valorConvertido);
         return q;
     }
+
+    @POST 
+    @Path("/save") 
+    @Consumes(MediaType.APPLICATION_JSON) 
+    @Produces(MediaType.APPLICATION_JSON) 
+    @Transactional 
+    public Subject save(final String jsonString) { 
+        // converts the json to a map final 
+        Jsonb jsonb = JsonbBuilder.create(); 
+        Map map = jsonb.fromJson(jsonString, HashMap.class); 
+    } 
 }
